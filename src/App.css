@@ -1,38 +1,53 @@
-.App {
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  border-style: solid;
+  border-color: #6b70d6;
+  overflow: hidden;
+  background-color: #ebf0ff;
+}
+
+.topnav a {
+
+  float: left;
+  color: rgba(68, 68, 68, 0.67);
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.topnav a.logo {
+  border-style: solid;
+  border-color: #d6d02d;
+  background-color: #fffcda;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu {
+  border-style: solid;
+  border-color: #5bd64c;
+  background-color: #d6e6d2;
+  width: 55%;
+  height: 62px;
+  margin-left: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content {
+  padding-left:18px;
+  border-style: solid;
+  height: 300px;
+  border-color: #6c137e;
+  background-color: #eddbec;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  border-style: solid;
+  border-color: #1cd6d6;
+  overflow: revert;
+  background-color: #d3f3f0;
+  height: 100%;
 }

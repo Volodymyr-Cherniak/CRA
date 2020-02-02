@@ -1,20 +1,25 @@
 import React from 'react';
 import './App.css';
-import Header from "./Header";
-import Footer from "./Footer";
+import 'materialize-css/dist/css/materialize.min.css';
+import Header from "./App/Header";
+import Footer from "./App/Footer";
+import Content from "./App/Content";
 
 
 const App = () => {
 
-  const name = 'Johnny English';
-
   return (
-    <div className="App">
-      <h1>{name}</h1>
-      <Header/>
-      <Footer/>
-    </div>
+    <div>
+      <div className='container'>
+        <div className="topnav">
+          <Header/>
+        </div>
+        <Content/>
+        <Footer/>
+      </div>
+      </div>
   );
 };
 
 export default App;
+
