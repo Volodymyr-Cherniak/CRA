@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49c8ea7b-82de-4302-b4f1-75a3b507cf7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App/Content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/Logo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/MenuItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +38,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Professional\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -96,7 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580579060628</updated>
       <workItem from="1580579063270" duration="13817000" />
-      <workItem from="1580602375504" duration="15231000" />
+      <workItem from="1580602375504" duration="17097000" />
+      <workItem from="1580753374211" duration="1218000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1580594512142</created>
@@ -105,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580594512142</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create first task">
+      <created>1580653905816</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580653905816</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,13 +112,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="create first task" />
+    <option name="LAST_COMMIT_MESSAGE" value="create first task" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1580653858329">
+    <state x="474" y="0" key="CommitChangelistDialog2" timestamp="1580754611514">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580653858329" />
+    <state x="474" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580754611514" />
+    <state x="95" y="22" key="SettingsEditor" timestamp="1580753983375">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="95" y="22" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1580753983375" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1580654001814">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1580654001814" />
     <state x="492" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580593973190">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
