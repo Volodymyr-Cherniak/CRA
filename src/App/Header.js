@@ -7,12 +7,10 @@ import '../App.css';
 const Header = () => {
 
   return (
-    <div>
+    <header className="header">
       <Logo/>
-      <div className='menu'>
-        <Menu/>
-      </div>
-    </div>
+      <Menu/>
+    </header>
   );
 };
 

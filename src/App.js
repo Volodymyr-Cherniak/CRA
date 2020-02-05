@@ -11,11 +11,9 @@ const App = () => {
   return (
     <div>
       <div className='container'>
-        <div className="topnav">
-          <Header/>
-        </div>
-        <Content/>
-        <Footer/>
+        <Header />
+        <Content />
+        <Footer />
       </div>
       </div>
   );

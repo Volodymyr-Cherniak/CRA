@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49c8ea7b-82de-4302-b4f1-75a3b507cf7a" name="Default Changelist" comment="">
+    <list default="true" id="49c8ea7b-82de-4302-b4f1-75a3b507cf7a" name="Default Changelist" comment="add some change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/MenuItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Professional\AppData\Roaming\npm\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -89,6 +95,7 @@
       <workItem from="1580579063270" duration="13817000" />
       <workItem from="1580602375504" duration="17097000" />
       <workItem from="1580753374211" duration="1218000" />
+      <workItem from="1580763868458" duration="6459000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1580594512142</created>
@@ -113,21 +120,38 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="create first task" />
-    <option name="LAST_COMMIT_MESSAGE" value="create first task" />
+    <MESSAGE value="add some change" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some change" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="474" y="0" key="CommitChangelistDialog2" timestamp="1580754611514">
+    <state x="474" y="0" key="CommitChangelistDialog2" timestamp="1580873763343">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="474" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580754611514" />
+    <state x="474" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580873763343" />
+    <state width="1345" height="140" key="GridCell.Tab.0.bottom" timestamp="1580873727091">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="140" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580873727091" />
+    <state width="1345" height="140" key="GridCell.Tab.0.center" timestamp="1580873727090">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="140" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580873727090" />
+    <state width="1345" height="140" key="GridCell.Tab.0.left" timestamp="1580873727090">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="140" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580873727090" />
+    <state width="1345" height="140" key="GridCell.Tab.0.right" timestamp="1580873727090">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="140" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580873727090" />
     <state x="95" y="22" key="SettingsEditor" timestamp="1580753983375">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="95" y="22" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1580753983375" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1580654001814">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1580873714026">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1580654001814" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1580873714026" />
     <state x="492" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580593973190">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

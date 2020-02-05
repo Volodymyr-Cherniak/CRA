@@ -5,7 +5,7 @@ import MenuItem from "./MenuItem";
 const Menu = () => {
 
   return (
-    <div>
+    <div className='menu'>
       <MenuItem/>
       <MenuItem/>
       <MenuItem/>

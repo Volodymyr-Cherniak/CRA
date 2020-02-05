@@ -4,7 +4,7 @@ const MenuItem = () => {
 
   return (
     <div>
-      <a href="#">MenuItem</a>
+      <a className="menuItem" href="#">MenuItem</a>
     </div>
   );
 };

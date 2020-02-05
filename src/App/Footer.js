@@ -1,16 +1,16 @@
 import React from 'react';
 import Logo from "./Logo";
-import Menu from "./Menu";
+
 
 
 const Footer = () => {
 
   return (
-    <div>
-      <div className='footer topnav'>
+    <footer>
+      <div className='footer header'>
         <Logo/>
       </div>
-    </div>
+    </footer>
   );
 };
 
