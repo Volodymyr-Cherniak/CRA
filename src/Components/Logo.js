@@ -5,7 +5,7 @@ const Logo = () => {
 
   return (
     <div>
-      <a className="logo" href="#">Logo</a>
+      <a href='/logo' className='logo'>Logo</a>
     </div>
   );
 };
