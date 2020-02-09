@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from "./Logo";
 import FooterMenu1 from "./FooterMenu1";
-import MenuFooter1 from "./FooterMenu1";
+import FooterItem from "./FooterMenu1";
 import Text from "./Text";
 
 
@@ -16,7 +16,7 @@ const Footer = (props) => {
       </div>
 
       <div className='footeritems'>
-        {props.menuFooter1.map(el => <MenuFooter1 key={el.text} menuFooter1={el}/>)}
+        {props.menuFooter1.map(el => <FooterItem key={el.text} footerItem={el}/>)}
       </div>
 
       <div>

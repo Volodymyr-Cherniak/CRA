@@ -24,7 +24,7 @@ const App = () => {
       link: 'price-page'
     }
   ];
-  const itemsFooter = [
+  const footerItems = [
     {
       text: 'Home',
       link: 'home-page'
@@ -66,7 +66,7 @@ const App = () => {
       <div className="container">
         <Header menuItems={items}/>
         <Content/>
-        <Footer footerItems={itemsFooter} menuFooter1={menuFooter1}/>
+        <Footer footerItems={footerItems} menuFooter1={menuFooter1}/>
       </div>
     </div>
   );
