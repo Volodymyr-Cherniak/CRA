@@ -24,49 +24,32 @@ const App = () => {
       link: 'price-page'
     }
   ];
-  const itemsFooter = [
+  const footerMenuItems2 = [
     {
-      text: 'Home',
-      link: 'home-page'
-    },
-    {
-      text: 'Products',
-      link: 'prod-page'
-    },
-    {
-      text: 'Service',
-      link: 'serv-page'
-    },
-    {
-      text: 'Price',
-      link: 'price-page'
-    }
-  ];
-  const menuFooter1 = [
-    {
-      text: 'menuFooter1',
+      text: 'footerMenu1',
       link: 'footer1-page'
     },
     {
-      text: 'menuFooter1.2',
+      text: 'footerMenu1.2',
       link: 'footer2-page'
     },
     {
-      text: 'menuFooter1.3',
+      text: 'footerMenu1.3',
       link: 'footer3-page'
     },
     {
-      text: 'menuFooter1.4',
+      text: 'footerMenu1.4',
       link: 'footer4-page'
     }
   ];
+  const text = "Because some numbers use the e character in theirstring representation (e.g. 6.022e23 for 6.022 × 1023),using parseInt to truncate numbers will produce unexpectedresults when used on very large or very small numbers.parseInt should not be used as a substitute for Math.floor().";
 
   return (
     <div>
       <div className="container">
         <Header menuItems={items}/>
         <Content/>
-        <Footer footerItems={itemsFooter} menuFooter1={menuFooter1}/>
+        <Footer footerMenu1={items} footerMenu2={footerMenuItems2} footerText={text}/>
       </div>
     </div>
   );

@@ -58,6 +58,7 @@ header ul div a {
 }
 
 .footeritems {
+  justify-content: center;
   margin: 0 5%;
   width: 20%;
   height: 100px;
