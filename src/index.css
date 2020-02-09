@@ -6,6 +6,7 @@ header {
   border-radius: 5px;
   border-color: rgba(68, 68, 68, 0.67);
   display: inline-block;
+
 }
 
 footer {
@@ -16,6 +17,7 @@ footer {
   border-width: 1px;
   border-radius: 5px;
   border-color: rgba(68, 68, 68, 0.67);
+  display: flex;
 }
 
 .logo {
@@ -30,8 +32,9 @@ footer {
   margin-left: 20px;
 }
 
-.head1{
+.head1 {
   display: inline-flex;
+  box-shadow: 4px 3px 12px 0 #a7a4a4;
 }
 
 .menu {
@@ -39,9 +42,7 @@ footer {
   margin: 0;
 }
 
-header ul div a{
-  /*display: inline-block;*/
-  /*display: flex;*/
+header ul div a {
   float: left;
   color: rgba(68, 68, 68, 0.67);
   text-align: center;
@@ -51,4 +52,23 @@ header ul div a{
   flex-wrap: nowrap;
 }
 
+.footer {
+  display: flex;
+  box-shadow: 4px 3px 12px 0 #a7a4a4;
+}
 
+.footeritems {
+  margin: 0 5%;
+  width: 20%;
+  height: 100px;
+}
+
+.footertext {
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 45%;
+  font-size: 10px;
+}
+footer a {
+  color: rgba(68, 68, 68, 0.91);;
+}

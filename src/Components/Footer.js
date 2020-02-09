@@ -8,12 +8,13 @@ import Text from "./Text";
 const Footer = (props) => {
 
   return (
-    <footer>
+    <footer className='footer'>
       <Logo/>
-      <div>
+
+      <div className='footeritems'>
         {props.footerItems.map(el => <FooterItem key={el.text} footerItem={el}/>)}
       </div>
-      <div>
+      <div className='footeritems'>
         {props.menuFooter1.map(el => <MenuFooter1 key={el.text} menuFooter1={el}/>)}
       </div>
       <div>

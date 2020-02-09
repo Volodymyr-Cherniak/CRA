@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49c8ea7b-82de-4302-b4f1-75a3b507cf7a" name="Default Changelist" comment="add some change">
-      <change afterPath="$PROJECT_DIR$/src/Components/Content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/FooterItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/FooterMenu1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/MenuItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Text.js" afterDir="false" />
+    <list default="true" id="49c8ea7b-82de-4302-b4f1-75a3b507cf7a" name="Default Changelist" comment="add new style in components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/MenuItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Text.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +96,7 @@
       <workItem from="1580753374211" duration="1218000" />
       <workItem from="1580763868458" duration="8356000" />
       <workItem from="1581180934276" duration="23712000" />
+      <workItem from="1581255146728" duration="7290000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1580594512142</created>
@@ -140,29 +129,30 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="create first task" />
     <MESSAGE value="add some change" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some change" />
+    <MESSAGE value="add new style in components" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new style in components" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="474" y="0" key="CommitChangelistDialog2" timestamp="1581205880580">
+    <state x="474" y="0" key="CommitChangelistDialog2" timestamp="1581268585073">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="474" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1581205880580" />
-    <state width="659" height="137" key="GridCell.Tab.0.bottom" timestamp="1580937688812">
+    <state x="474" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1581268585073" />
+    <state width="1345" height="139" key="GridCell.Tab.0.bottom" timestamp="1581254402955">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="659" height="137" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580937688812" />
-    <state width="659" height="137" key="GridCell.Tab.0.center" timestamp="1580937688812">
+    <state width="1345" height="139" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581254402955" />
+    <state width="1345" height="139" key="GridCell.Tab.0.center" timestamp="1581254402955">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="659" height="137" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580937688812" />
-    <state width="659" height="137" key="GridCell.Tab.0.left" timestamp="1580937688812">
+    <state width="1345" height="139" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581254402955" />
+    <state width="1345" height="139" key="GridCell.Tab.0.left" timestamp="1581254402955">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="659" height="137" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580937688812" />
-    <state width="659" height="137" key="GridCell.Tab.0.right" timestamp="1580937688812">
+    <state width="1345" height="139" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581254402955" />
+    <state width="1345" height="139" key="GridCell.Tab.0.right" timestamp="1581254402955">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="659" height="137" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580937688812" />
+    <state width="1345" height="139" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581254402955" />
     <state x="95" y="22" key="SettingsEditor" timestamp="1580753983375">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
