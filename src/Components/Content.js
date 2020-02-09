@@ -3,7 +3,8 @@ import '../index.css'
 
 
 const Content = () => {
-  const clickBattonHandler = (value) => {
+
+  const clickButtonHandler = (value) => {
     console.log('clicked', value);
   };
   const iputHandler = (e) => {
@@ -20,12 +21,12 @@ const Content = () => {
 
           <button
             className="waves-effect waves-light btn"
-            onClick={() => clickBattonHandler(1)}>Add one
+            onClick={() => clickButtonHandler(1)}>Add one
           </button>
 
           <button
             className="waves-effect waves-light btn"
-            onClick={() => clickBattonHandler(2)}>Add two
+            onClick={() => clickButtonHandler(2)}>Add two
           </button>
 
         </div>

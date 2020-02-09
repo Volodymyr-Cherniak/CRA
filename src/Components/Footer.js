@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from "./Logo";
-import FooterMenu1 from "./FooterMenu1";
+import Menu from "./Menu";
 import FooterMenu2 from "./FooterMenu2";
 import Text from "./Text";
 
@@ -12,7 +12,7 @@ const Footer = (props) => {
       <Logo/>
 
       <div className='footeritems'>
-        {props.footerMenu1.map(el => <FooterMenu1 key={el.text} footerMenu1={el}/>)}
+        <Menu menuItems={props.footerMenu1}/>
       </div>
 
       <div className='footeritems'>
@@ -20,7 +20,7 @@ const Footer = (props) => {
       </div>
 
       <div>
-        <Text/>
+        <Text foterText={props.footerText}/>
       </div>
 
     </footer>
