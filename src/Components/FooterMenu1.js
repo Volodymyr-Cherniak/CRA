@@ -4,7 +4,7 @@ const FooterMenu1 = (props) => {
 
   return (
     <div>
-      <a href={props.footerItem.link}>{props.footerItem.text}</a>
+      <a href={props.footerMenu1.link}>{props.footerMenu1.text}</a>
     </div>
   );
 };

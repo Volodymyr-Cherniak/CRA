@@ -24,7 +24,7 @@ const App = () => {
       link: 'price-page'
     }
   ];
-  const footerItems = [
+  const footerMenuItems1 = [
     {
       text: 'Home',
       link: 'home-page'
@@ -42,21 +42,21 @@ const App = () => {
       link: 'price-page'
     }
   ];
-  const menuFooter1 = [
+  const footerMenuItems2 = [
     {
-      text: 'menuFooter1',
+      text: 'footerMenu1',
       link: 'footer1-page'
     },
     {
-      text: 'menuFooter1.2',
+      text: 'footerMenu1.2',
       link: 'footer2-page'
     },
     {
-      text: 'menuFooter1.3',
+      text: 'footerMenu1.3',
       link: 'footer3-page'
     },
     {
-      text: 'menuFooter1.4',
+      text: 'footerMenu1.4',
       link: 'footer4-page'
     }
   ];
@@ -66,7 +66,7 @@ const App = () => {
       <div className="container">
         <Header menuItems={items}/>
         <Content/>
-        <Footer footerItems={footerItems} menuFooter1={menuFooter1}/>
+        <Footer footerMenu1={footerMenuItems1} footerMenu2={footerMenuItems2}/>
       </div>
     </div>
   );
