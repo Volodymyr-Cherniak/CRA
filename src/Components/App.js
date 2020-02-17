@@ -65,11 +65,13 @@ const App = () => {
         <Content bc={buttonClicked}/>
 
         Total: {total}
-        {num.map(el =>
+
+        {num.map(el => 
           <Counter
             num={el}
             totals={totals}
-          />)}
+          />
+        )}
 
         <Footer
           footerMenu1={items}
