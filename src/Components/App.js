@@ -49,13 +49,12 @@ const App = () => {
   ];
   const text = "Because some numbers use the e character in their string representation (e.g. 6.022e23 for 6.022 × 1023),using parseInt to truncate numbers will produce unexpectedresults when used on very large or very small numbers.parseInt should not be used as a substitute for Math.floor().";
 
-  const num = [3, 5, 7];
+  const num = [3, 5, 1];
   const sum = num.reduce((a, b) => a + b);
   const [total, setTotal] = useState(sum);
   const totals = (value) => {
     setTotal(value + total);
   };
-
 
   return (
     <div>
@@ -66,7 +65,7 @@ const App = () => {
 
         Total: {total}
 
-        {num.map(el => 
+        {num.map(el =>
           <Counter
             num={el}
             totals={totals}
