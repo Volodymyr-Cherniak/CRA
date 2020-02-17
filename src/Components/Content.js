@@ -2,12 +2,17 @@ import React from 'react';
 import '../index.css'
 
 
-const Content = () => {
+const Content = (props) => {
+
+  let name = 'Initial';
 
   const clickButtonHandler = (value) => {
+    props.bc(name);
     console.log('clicked', value);
   };
-  const iputHandler = (e) => {
+
+  const inputHandler = (e) => {
+    name = e.target.value;
     console.log(e.target.value);
   };
 
@@ -17,15 +22,15 @@ const Content = () => {
       <div>
         <h3>Some content..</h3>
         <div className="row">
-          <input type='text' onChange={iputHandler} className="input-field col s6"/>
+          <input type='text' onChange={inputHandler} className="input-field col s6"/>
 
           <button
-            className="waves-effect waves-light btn"
-            onClick={() => clickButtonHandler(1)}>Add one
+            className="waves-effect waves-light btn btnCont"
+            onClick={() => clickButtonHandler()}>Add one
           </button>
 
           <button
-            className="waves-effect waves-light btn"
+            className="waves-effect waves-light btn btnCont"
             onClick={() => clickButtonHandler(2)}>Add two
           </button>
 
