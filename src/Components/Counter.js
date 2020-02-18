@@ -16,7 +16,6 @@ const Counter = (props) => {
 
   return (
     <div>
-      <hr/>
       <button
         onClick={countChangeMinusHandler}
         className="waves-effect waves-light btn"
@@ -26,6 +25,7 @@ const Counter = (props) => {
         onClick={countChangePlusHandler}
         className="waves-effect waves-light btn"
       >+</button>
+      <hr/>
     </div>
   );
 };
