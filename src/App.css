@@ -64,4 +64,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+.counters{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: right;
+}
 

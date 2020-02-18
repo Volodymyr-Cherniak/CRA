@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 
 
 const Counter = (props) => {
 
-  const [count, setCount] = useState(props.num);
+  const [count, setCount] = useState(props.counterNameValue.value);
 
   const countChangePlusHandler = () => {
     setCount(count + 1);
@@ -16,16 +16,21 @@ const Counter = (props) => {
 
   return (
     <div>
-      <button
-        onClick={countChangeMinusHandler}
-        className="waves-effect waves-light btn"
-      >-</button>
-      {count}
-      <button
-        onClick={countChangePlusHandler}
-        className="waves-effect waves-light btn"
-      >+</button>
-      <hr/>
+      <div className='counters'>
+        <h5>{props.counterNameValue.name}</h5>
+        <button
+          onClick={countChangeMinusHandler}
+          className="waves-effect waves-light btn"
+        >-
+        </button>
+        {`  ${count}  `}
+        <button
+          onClick={countChangePlusHandler}
+          className="waves-effect waves-light btn"
+        >+
+        </button>
+        <hr/>
+      </div>
     </div>
   );
 };
