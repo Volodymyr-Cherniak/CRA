@@ -1,17 +1,18 @@
-import React, {useState} from 'react';
+import React from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
 import Header from "./Header";
 import Footer from "./Footer";
-import Content from "./Content";
-import Counter from "./Counter";
-import ContentCounter from "./ContentCounter";
+import Calculator from "./Calculator/Calculator";
+
+
 
 
 const App = () => {
 
-  const buttonClicked = (name) => {
-    console.log('Clicked!!' + name)
-  };
+  // const buttonClicked = (name) => {
+  //   console.log('Clicked!!' + name)
+  // };
+
   const items = [
     {
       text: 'Home',
@@ -30,6 +31,7 @@ const App = () => {
       link: 'price-page'
     }
   ];
+
   const footerMenuItems2 = [
     {
       text: 'footerMenu1',
@@ -48,6 +50,7 @@ const App = () => {
       link: 'footer4-page'
     }
   ];
+
   const text = "Because some numbers use the e character in their string representation (e.g. 6.022e23 for 6.022 × 1023),using parseInt to truncate numbers will produce unexpectedresults when used on very large or very small numbers.parseInt should not be used as a substitute for Math.floor().";
 
 
@@ -56,10 +59,7 @@ const App = () => {
       <div className="container">
 
         <Header menuItems={items}/>
-        <Content bc={buttonClicked}/>
-        <ContentCounter
-
-        />
+        <Calculator/>
         <Footer
           footerMenu1={items}
           footerMenu2={footerMenuItems2}
@@ -71,4 +71,3 @@ const App = () => {
 };
 
 export default App;
-
