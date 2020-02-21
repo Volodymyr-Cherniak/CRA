@@ -7,6 +7,7 @@ const Counter = (props) => {
 
   return (
     <div>
+      {/*{props.count.id}*/}
       {props.count.name}
       <button onClick={() => props.decrement(props.id)}>-</button>
 

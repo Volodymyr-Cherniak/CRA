@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Counter from "./Counter";
+import AddCounterForm from "./AddCounterForm";
 
 
 const Calculator = () => {
@@ -26,36 +27,42 @@ const Calculator = () => {
   const [counters, setCounters] = useState(InitialCountersState);
 
   const resetTotalCount = () => {
-    const newCounts = counters.map(el => ({...el, value: 0}));
-    setCounters(newCounts);
+    const newCounters = counters.map(el => ({...el, value: 0}));
+    setCounters(newCounters);
   };
 
-  const increment = (id) => {
+  const incrementCounter = (id) => {
     const index = counters.findIndex(el => id === el.id);
-    const newCounts = [...counters];
-    newCounts[index].value = newCounts[index].value + 1;
-    setCounters(newCounts);
+    const newCounters = [...counters];
+    newCounters[index].value = newCounters[index].value + 1;
+    setCounters(newCounters);
     console.log('You press plus');
 
   };
 
-  const decrement = (id) => {
-    const newCounts = counters.map(el => {
-      if(id === el.id) return {...el, value: el.value - 1};
+  const decrementCounter = (id) => {
+    const newCounters = counters.map(el => {
+      if (id === el.id) return {...el, value: el.value - 1};
       return el;
     });
-    setCounters(newCounts);
+    setCounters(newCounters);
     console.log('You press minus');
   };
 
   const removeCounter = (id) => {
-    const index = counters.findIndex(el => id === el.id);
-    const newCount = [...counters];
-    newCount.splice(index, 1);
-    setCounters(newCount);
-    console.log("REMOVE ID " + index);
+    const newCounters = counters.filter(el => el.id !== id);
+    setCounters(newCounters);
   };
 
+  const addCounter = (name, value) => {
+    const id = Date.now();
+    const newCounters = [...counters, {
+      id: id, name, value: Number(value)
+    }];
+    setCounters(newCounters);
+    console.log(counters)
+
+  };
 
 
   return (
@@ -67,11 +74,17 @@ const Calculator = () => {
         counters.map(el => <Counter key={el.id}
                                     count={el}
                                     id={el.id}
-                                    increment={increment}
-                                    decrement={decrement}
+                                    increment={incrementCounter}
+                                    decrement={decrementCounter}
                                     remove={removeCounter}
+                                    className='counters'
         />)
       }
+
+      <AddCounterForm
+        onSubmit={addCounter}
+
+      />
 
     </div>
   );

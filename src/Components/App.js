@@ -3,15 +3,16 @@ import 'materialize-css/dist/css/materialize.min.css';
 import Header from "./Header";
 import Footer from "./Footer";
 import Calculator from "./Calculator/Calculator";
+import Content from "./Content";
 
 
 
 
 const App = () => {
 
-  // const buttonClicked = (name) => {
-  //   console.log('Clicked!!' + name)
-  // };
+  const buttonClicked = (name) => {
+    console.log('Clicked!!' + name)
+  };
 
   const items = [
     {
@@ -59,6 +60,7 @@ const App = () => {
       <div className="container">
 
         <Header menuItems={items}/>
+        <Content bc={buttonClicked}/>
         <Calculator/>
         <Footer
           footerMenu1={items}
