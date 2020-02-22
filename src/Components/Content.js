@@ -21,18 +21,18 @@ const Content = (props) => {
     <main>
       <div>
         <h3>Some content..</h3>
-        <div className="row">
-          <input type='text' onChange={inputHandler} className="input-field col s6"/>
+        {/*<div className="row">*/}
+        {/*  <input type='text' onChange={inputHandler} className="form-control-lg"/>*/}
 
-          <button
-            className="waves-effect waves-light btn btnCont"
-            onClick={() => clickButtonHandler()}>Add one
-          </button>
+        {/*  <button*/}
+        {/*    className="btn btn-secondary"*/}
+        {/*    onClick={() => clickButtonHandler()}>Add one*/}
+        {/*  </button>*/}
 
-          <button
-            className="waves-effect waves-light btn btnCont"
-            onClick={() => clickButtonHandler(2)}>Add two
-          </button>
+        {/*  <button*/}
+        {/*    className="btn btn-primary"*/}
+        {/*    onClick={() => clickButtonHandler(2)}>Add two*/}
+        {/*  </button>*/}
 
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -40,7 +40,7 @@ const Content = (props) => {
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
           est laborum.</p>
-      </div>
+      {/*</div>*/}
     </main>
   );
 };
