@@ -1,9 +1,10 @@
 import React from 'react';
-import 'materialize-css/dist/css/materialize.min.css';
+//import 'materialize-css/dist/css/materialize.min.css';
 import Header from "./Header";
 import Footer from "./Footer";
 import Calculator from "./Calculator/Calculator";
 import Content from "./Content";
+import 'bootstrap/dist/css/bootstrap.css'
 
 
 

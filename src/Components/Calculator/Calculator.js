@@ -68,7 +68,10 @@ const Calculator = () => {
   return (
     <div>
       <h4>Total:{counters.reduce((acc, cur) => acc + cur.value, 0)}</h4>
-      <button onClick={resetTotalCount}>Reset total count</button>
+      <button
+        onClick={resetTotalCount}
+        className='btn btn-danger'
+      >Reset total count</button>
       <hr/>
       {
         counters.map(el => <Counter key={el.id}
@@ -77,7 +80,6 @@ const Calculator = () => {
                                     increment={incrementCounter}
                                     decrement={decrementCounter}
                                     remove={removeCounter}
-                                    className='counters'
         />)
       }
 

@@ -12,26 +12,39 @@ const AddCounterForm = (props) => {
     setName('');
   };
 
-
-
   return (
-    <div className='addCounterform'>
-      <input
-        placeholder='Set Name'
-        type='text'
-        name='name'
-        value={name}
-        onChange={e => setName(e.target.value)}
-      />
-      <input
-        placeholder='Set Value'
-        type='text'
-        name='value'
-        value={value}
-        onChange={e => setValue(e.target.value)}
-      />
+    <div className='card mb-2 ml-1 col-sm-8'>
+      <div className="row">
+        <div className="col col-sm-5">
+          <input
+            placeholder='Set Name'
+            type='text'
+            name='name'
+            value={name}
+            onChange={e => setName(e.target.value)}
+            className='form-control'
+          />
+        </div>
 
-      <button onClick={() => onSubmit(name, value)}>Add</button>
+        <div className="col col-sm-5">
+          <input
+            placeholder='Set Value'
+            type='text'
+            name='value'
+            value={value}
+            onChange={e => setValue(e.target.value)}
+            className='form-control'
+          />
+        </div>
+
+        <div className="col">
+          <button
+            onClick={() => onSubmit(name, value)}
+            className='btn btn-secondary'
+          >Add
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
