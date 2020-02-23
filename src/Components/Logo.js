@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '../../src/img/bootstrap-solid.svg'
+import logo from '../../src/img/HatchfulExport-All/logo_transparent2.png'
 
 
 const Logo = () => {
 
   return (
     <div>
-      <img src={logo} width="50" height="50" alt=""/>
+      <img src={logo} height="50" alt=""/>
     </div>
   );
 };
