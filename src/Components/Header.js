@@ -7,7 +7,7 @@ import '../index.css';
 const Header = (props) => {
 
   return (
-    <header className='head1 class="z-depth-3"'>
+    <header className='head1'>
         <Logo/>
         <Menu menuItems={props.menuItems}/>
     </header>

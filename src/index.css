@@ -3,9 +3,8 @@ header {
   background-color: #ebf0ff;
   border-style: solid;
   border-width: 1px;
-  border-radius: 5px;
+  border-radius: 9px 5px 5px 9px;
   border-color: rgba(68, 68, 68, 0.67);
-  display: inline-block;
 
 }
 
@@ -15,7 +14,7 @@ footer {
   background-color: rgba(91, 214, 76, 0.51);
   border-style: solid;
   border-width: 1px;
-  border-radius: 5px;
+  border-radius: 9px 5px 5px 5px;
   border-color: rgba(68, 68, 68, 0.67);
   display: flex;
 }

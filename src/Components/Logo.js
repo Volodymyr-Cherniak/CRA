@@ -1,11 +1,12 @@
 import React from 'react';
+import logo from '../../src/img/bootstrap-solid.svg'
 
 
 const Logo = () => {
 
   return (
     <div>
-      <a href='/logo' className='logo'>Logo</a>
+      <img src={logo} width="50" height="50" alt=""/>
     </div>
   );
 };

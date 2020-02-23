@@ -72,7 +72,6 @@ const Calculator = () => {
         onClick={resetTotalCount}
         className='btn btn-danger'
       >Reset total count</button>
-      <hr/>
       {
         counters.map(el => <Counter key={el.id}
                                     count={el}
