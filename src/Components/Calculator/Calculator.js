@@ -24,7 +24,11 @@ const Calculator = () => {
 
   ];
 
+  const ModalState = [{isShowing: false}];
+
   const [counters, setCounters] = useState(InitialCountersState);
+
+  const [modal, setModal] = useState(ModalState);
 
   const resetTotalCount = () => {
     const newCounters = counters.map(el => ({...el, value: 0}));
@@ -57,12 +61,13 @@ const Calculator = () => {
   const addCounter = (name, value) => {
     const id = Date.now();
     const newCounters = [...counters, {
-      id: id, name, value: Number(value)
+      id: id, name: name, value: Number(value)
     }];
     setCounters(newCounters);
     console.log(counters)
 
   };
+
 
 
   return (
@@ -78,12 +83,13 @@ const Calculator = () => {
                                     id={el.id}
                                     increment={incrementCounter}
                                     decrement={decrementCounter}
+                                    deleteModal={isOpenModal}
                                     remove={removeCounter}
         />)
       }
 
       <AddCounterForm
-        onSubmit={addCounter}
+        addCounter={addCounter}
 
       />
 
