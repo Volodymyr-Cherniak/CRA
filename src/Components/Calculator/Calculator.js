@@ -24,6 +24,8 @@ const Calculator = () => {
 
   ];
 
+  const ModalState = [{isShowing: false}];
+
   const [counters, setCounters] = useState(InitialCountersState);
 
   const resetTotalCount = () => {
@@ -57,12 +59,13 @@ const Calculator = () => {
   const addCounter = (name, value) => {
     const id = Date.now();
     const newCounters = [...counters, {
-      id: id, name, value: Number(value)
+      id: id, name: name, value: Number(value)
     }];
     setCounters(newCounters);
     console.log(counters)
 
   };
+
 
 
   return (
@@ -74,16 +77,16 @@ const Calculator = () => {
       >Reset total count</button>
       {
         counters.map(el => <Counter key={el.id}
-                                    count={el}
+                                    counter={el}
                                     id={el.id}
                                     increment={incrementCounter}
                                     decrement={decrementCounter}
-                                    remove={removeCounter}
+                                    removeCounter={removeCounter}
         />)
       }
 
       <AddCounterForm
-        onSubmit={addCounter}
+        addCounter={addCounter}
 
       />
 

@@ -7,7 +7,7 @@ const AddCounterForm = (props) => {
   const [value, setValue] = useState('');
 
   const onSubmit = () => {
-    props.onSubmit(name, value);
+    props.addCounter(name, value);
     setValue('');
     setName('');
   };
@@ -21,7 +21,7 @@ const AddCounterForm = (props) => {
             type='text'
             name='name'
             value={name}
-            onChange={e => setName(e.target.value)}
+            onChange={(e) => setName(e.target.value)}
             className='form-control'
           />
         </div>
@@ -32,7 +32,7 @@ const AddCounterForm = (props) => {
             type='text'
             name='value'
             value={value}
-            onChange={e => setValue(e.target.value)}
+            onChange={(e) => setValue(e.target.value)}
             className='form-control'
           />
         </div>
