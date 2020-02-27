@@ -14,7 +14,7 @@ const Counter = (props) => {
         <div className="row">
           {/*{props.count.id}*/}
           <div className="col col-sm-5">
-            <h5>{props.count.name}</h5>
+            <h5>{props.counter.name}</h5>
           </div>
 
           <div className="col">
@@ -25,7 +25,7 @@ const Counter = (props) => {
           </div>
 
           <div className="col">
-            <h5>{props.count.value}</h5>
+            <h5>{props.counter.value}</h5>
           </div>
 
           <div className="col">
@@ -45,7 +45,8 @@ const Counter = (props) => {
           <DeleteConfirmationModal showModal={showModal}
                                    openModalHandle={openModalHandle}
                                    closeModalHandle={closeModalHandle}
-                                   count={props.count}
+                                   counter={props.counter}
+                                   removeCounter={props.removeCounter}
           />
         </div>
       </div>

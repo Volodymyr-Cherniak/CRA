@@ -28,8 +28,6 @@ const Calculator = () => {
 
   const [counters, setCounters] = useState(InitialCountersState);
 
-  const [modal, setModal] = useState(ModalState);
-
   const resetTotalCount = () => {
     const newCounters = counters.map(el => ({...el, value: 0}));
     setCounters(newCounters);
@@ -79,12 +77,11 @@ const Calculator = () => {
       >Reset total count</button>
       {
         counters.map(el => <Counter key={el.id}
-                                    count={el}
+                                    counter={el}
                                     id={el.id}
                                     increment={incrementCounter}
                                     decrement={decrementCounter}
-                                    deleteModal={isOpenModal}
-                                    remove={removeCounter}
+                                    removeCounter={removeCounter}
         />)
       }
 
